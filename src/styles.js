@@ -37,7 +37,16 @@ const useStyles = makeStyles({
 
     listItem: {
         listStyle: "none",
+        color: "blue",
+    },
+
+    profileCard: {
+        background: "#d9d9d9",
+        borderRadius: "10px",
+        padding: "2vw",
+        marginBottom: "5vw"
     }
+    
 });
 
 export default useStyles;

@@ -57,9 +57,9 @@ const App = () => {
             
             <Container>
                 {JSONdata &&
-                    JSONdata.map((data, index) => {
+                    JSONdata.map((data, id) => {
                         return (
-                            <div key = {index}>
+                            <div key = {id} className = {classes.profileCard}>
                                 <Typography>
                                     <h1> {data.name} </h1>
                                     <ul className = {classes.listItem}>
