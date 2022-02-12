@@ -34,6 +34,10 @@ const useStyles = makeStyles({
         color: "#fff",
         margin: "50vw",
     },
+
+    listItem: {
+        listStyle: "none",
+    }
 });
 
 export default useStyles;
